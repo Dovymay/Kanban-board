@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" );
 
 body {
-    margin: 0;
-    background-color: #fffef2;
+    margin: 10px;
+    background-image: url(../src/assets/Images/Background-Image.jpg);
+
 }
 
 .navbar {
@@ -84,10 +85,10 @@ body {
 }
 
 #to-do-card{
-    width: 500px;
+    width: 450px;
     height: 600px;
     /* align-self: flex-start; */
-    border: 7px solid rgb(81, 81, 81);
+    border: 4px solid rgb(81, 81, 81);
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -97,9 +98,9 @@ body {
 }
 
 #in-progress-card{
-    width: 500px;
+    width: 450px;
     height: 600px;
-    border: 7px solid rgb(81, 81, 81);
+    border: 4px solid rgb(81, 81, 81);
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -109,9 +110,9 @@ body {
 }
 
 #completed-card{
-    width: 500px;
+    width: 450px;
     height: 600px;
-    border: 7px solid rgb(81, 81, 81);
+    border: 4px solid rgb(81, 81, 81);
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -126,7 +127,7 @@ body {
     justify-content: center;
     /* margin-bottom: 800px; */
     background-color: rgb(243, 159, 159);
-    font-size: 30px;
+    font-size: 25px;
     padding: 12px 24px;
     border: 5px solid black;
     position: flex;
@@ -142,7 +143,7 @@ body {
     justify-content: center;
     /* margin-bottom: 800px; */
     background-color: rgb(246, 180, 93);
-    font-size: 30px;
+    font-size: 25px;
     padding: 12px 24px;
     border: 5px solid black;
     position: relative;
@@ -157,7 +158,7 @@ body {
     justify-content: center;
     /* margin-bottom: 800px; */
     background-color: rgb(150, 244, 167);
-    font-size: 30px;
+    font-size: 25px;
     padding: 12px 24px;
     border: 5px solid black;
     position: relative;
